@@ -29,7 +29,7 @@ export default function Home() {
           height={20}
           onClick={close}
         />
-        <ul style={{ display: `${display}` }}>
+        <ul style={{ display: `${display}`, transition: 'all 0.55s ease-in-out' }}>
           <li className={styles.drop_item}>New</li>
           <li className={styles.drop_item}>Women</li>
           <li className={styles.drop_item}>Men</li>
